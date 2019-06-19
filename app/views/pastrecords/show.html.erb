@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pastrecord.name %>
+</p>
+
+<p>
+  <strong>Registration:</strong>
+  <%= @pastrecord.registration %>
+</p>
+
+<p>
+  <strong>Stream:</strong>
+  <%= @pastrecord.stream %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @pastrecord.year %>
+</p>
+
+<p>
+  <strong>Package:</strong>
+  <%= @pastrecord.package %>
+</p>
+
+<%= link_to 'Edit', edit_pastrecord_path(@pastrecord) %> |
+<%= link_to 'Back', pastrecords_path %>

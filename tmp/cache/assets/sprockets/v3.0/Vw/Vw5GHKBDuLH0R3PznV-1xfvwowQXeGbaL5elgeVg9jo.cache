@@ -1,0 +1,12 @@
+I"Ñ(function() {
+  jQuery(function() {
+    return $(".date").datepicker({
+      dateFormat: 'yy-mm-dd',
+      changeMonth: true,
+      changeYear: true,
+      yearRange: "1975:2030"
+    });
+  });
+
+}).call(this);
+:ET

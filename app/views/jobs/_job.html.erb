@@ -1,0 +1,45 @@
+
+<div class="container-fluid">
+ <div class="card well">
+  <div class="card-header" style="color:#269ABC">
+   <h4> <strong>Jobs</strong></h4>
+  </div>
+  <div class="card-block">
+<table class="table table-hover table-bordered info">
+  <thead style="background-color:#0072CC;color:white">
+    <tr class="text-nowrap">
+      <% if logged_in1? %>
+      <th>CompnayName</th>
+       <%end%>
+      <th>Post Name</th>
+      <th>Package(<span>Lakhs/Annum</span>)</th>
+      <th>Location</th>
+      <th>Skills Required</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% obj.each do |job| %>
+      <tr>
+        <% if logged_in1? %>
+        <td><%=job.company.compName if job.company %></td>
+         <%end%>
+        <td><%= job.name if job.name%></td>
+        <td><%= job.package if job.package%></td>
+        <td><%= job.location if job.location%></td>
+        <td><%= job.critria if job.critria%></td>
+        <% if logged_in1? %>
+        <%else%>
+        <td><%= link_to 'Applied Students', job , class: "btn btn-xs btn-primary",style: "color:white"%>
+        <%= link_to 'Edit', edit_job_path(job) , class: "btn btn-xs btn-primary",style: "color:white"%></td>
+        <%end%>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</div>
+</div>
+
+
+

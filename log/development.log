@@ -1,0 +1,1370 @@
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:20:37 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/abhishek/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_message.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3314ms (Views: 3309.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/companies/new" for 127.0.0.1 at 2019-06-19 12:20:46 +0530
+Processing by CompaniesController#new as HTML
+  Rendering companies/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered companies/_form.html.erb (17.4ms)
+  Rendered companies/new.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 105ms (Views: 86.1ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/login2" for 127.0.0.1 at 2019-06-19 12:20:50 +0530
+Processing by Sessions1Controller#new as HTML
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2019-06-19 12:20:54 +0530
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered students/_form.html.erb (7.2ms)
+  Rendered students/new.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 90ms (Views: 70.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/login1" for 127.0.0.1 at 2019-06-19 12:21:02 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 104ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2019-06-19 12:21:06 +0530
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered students/_form.html.erb (4.2ms)
+  Rendered students/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/companies/new" for 127.0.0.1 at 2019-06-19 12:21:11 +0530
+Processing by CompaniesController#new as HTML
+  Rendering companies/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered companies/_form.html.erb (3.5ms)
+  Rendered companies/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login1" for 127.0.0.1 at 2019-06-19 12:21:15 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_message.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/companies/new" for 127.0.0.1 at 2019-06-19 12:21:20 +0530
+Processing by CompaniesController#new as HTML
+  Rendering companies/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered companies/_form.html.erb (4.8ms)
+  Rendered companies/new.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:21:55 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:23:59 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:34:41 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/abhishek/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 340ms (Views: 332.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/college.jpg" for 127.0.0.1 at 2019-06-19 12:34:42 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/images/college.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:34:45 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (3.1ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 71ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/college.jpg" for 127.0.0.1 at 2019-06-19 12:34:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/images/college.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:35:08 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 130ms (Views: 129.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/college.jpg" for 127.0.0.1 at 2019-06-19 12:35:08 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/images/college.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:35:15 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/college.jpg" for 127.0.0.1 at 2019-06-19 12:35:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/images/college.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:35:43 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/college.jpg" for 127.0.0.1 at 2019-06-19 12:35:44 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/images/college.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:35:47 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/college.jpg" for 127.0.0.1 at 2019-06-19 12:35:48 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/images/college.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:37:55 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/abhishek/Desktop/PlacementCell/app/views/welcome/home.html.erb:3: syntax error, unexpected =>
+...image_tag("college.jpg", alt:=> "No image") );@output_buffer...
+...                             ^~
+/home/abhishek/Desktop/PlacementCell/app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting end
+...lege.jpg", alt:=> "No image") );@output_buffer.safe_append='
+...                              ^):
+  
+app/views/welcome/home.html.erb:3: syntax error, unexpected =>
+app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting end
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:38:39 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:38:52 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:40:12 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/abhishek/Desktop/PlacementCell/app/views/welcome/home.html.erb:3: syntax error, unexpected class, expecting ')'
+....jpg", :alt => "No image" class="img-responsive img-circle")...
+...                          ^~~~~
+/home/abhishek/Desktop/PlacementCell/app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting end
+...="img-responsive img-circle") );@output_buffer.safe_append='
+...                              ^):
+  
+app/views/welcome/home.html.erb:3: syntax error, unexpected class, expecting ')'
+app/views/welcome/home.html.erb:3: syntax error, unexpected ')', expecting end
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:40:36 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:41:09 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:41:45 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:46:25 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_message.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 105ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:47:35 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:47:37 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 84ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:48:57 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 88ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why" for 127.0.0.1 at 2019-06-19 12:49:11 +0530
+Processing by WelcomeController#why as HTML
+  Rendering welcome/why.html.erb within layouts/application
+  Rendered welcome/why.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 79.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/companies/new" for 127.0.0.1 at 2019-06-19 12:49:13 +0530
+Processing by CompaniesController#new as HTML
+  Rendering companies/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered companies/_form.html.erb (4.8ms)
+  Rendered companies/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 87ms (Views: 64.7ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2019-06-19 12:49:15 +0530
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.4ms)
+  Rendered students/_form.html.erb (11.2ms)
+  Rendered students/new.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 107ms (Views: 85.8ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:49:22 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:50:05 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/abhishek/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (243.5ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 330ms (Views: 324.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 12:50:11 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/companies/new" for 127.0.0.1 at 2019-06-19 12:50:14 +0530
+Processing by CompaniesController#new as HTML
+  Rendering companies/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered companies/_form.html.erb (7.2ms)
+  Rendered companies/new.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 67.9ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2019-06-19 12:50:18 +0530
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered students/_form.html.erb (21.5ms)
+  Rendered students/new.html.erb within layouts/application (22.2ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 102ms (Views: 81.5ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/companies/new" for 127.0.0.1 at 2019-06-19 12:50:24 +0530
+Processing by CompaniesController#new as HTML
+  Rendering companies/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered companies/_form.html.erb (4.8ms)
+  Rendered companies/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2019-06-19 12:55:13 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/abhishek/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered students/_form.html.erb (9.4ms)
+  Rendered students/new.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 364ms (Views: 308.3ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/login2" for 127.0.0.1 at 2019-06-19 12:55:21 +0530
+Processing by Sessions1Controller#new as HTML
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 98ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2019-06-19 12:55:24 +0530
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered students/_form.html.erb (4.5ms)
+  Rendered students/new.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login1" for 127.0.0.1 at 2019-06-19 12:55:27 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 87ms (Views: 86.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/companies/new" for 127.0.0.1 at 2019-06-19 12:55:30 +0530
+Processing by CompaniesController#new as HTML
+  Rendering companies/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered companies/_form.html.erb (2.8ms)
+  Rendered companies/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 62.4ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2019-06-19 12:56:59 +0530
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/_form.html.erb (1.0ms)
+  Rendered students/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/abhishek/Desktop/PlacementCell/app/views/students/_form.html.erb:106: syntax error, unexpected class, expecting ')'
+...pend=( f.submit "Sign up" class:'btn btn-primary btn-lg');@o...
+...                          ^~~~~
+/home/abhishek/Desktop/PlacementCell/app/views/students/_form.html.erb:106: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+...class:'btn btn-primary btn-lg');@output_buffer.safe_append='
+...                              ^
+/home/abhishek/Desktop/PlacementCell/app/views/students/_form.html.erb:109: syntax error, unexpected end, expecting ')'
+'.freeze; end 
+          ^~~
+/home/abhishek/Desktop/PlacementCell/app/views/students/_form.html.erb:114: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/abhishek/Desktop/PlacementCell/app/views/students/_form.html.erb:116: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/students/_form.html.erb:106: syntax error, unexpected class, expecting ')'
+app/views/students/_form.html.erb:106: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/students/_form.html.erb:109: syntax error, unexpected end, expecting ')'
+app/views/students/_form.html.erb:114: syntax error, unexpected ensure, expecting ')'
+app/views/students/_form.html.erb:116: syntax error, unexpected end, expecting ')'
+app/views/students/new.html.erb:5:in `_app_views_students_new_html_erb___1882622259387684703_70171464864500'
+Started GET "/students/new" for 127.0.0.1 at 2019-06-19 12:57:26 +0530
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered students/_form.html.erb (4.0ms)
+  Rendered students/new.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login1" for 127.0.0.1 at 2019-06-19 12:57:36 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login2" for 127.0.0.1 at 2019-06-19 12:57:41 +0530
+Processing by Sessions1Controller#new as HTML
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login2" for 127.0.0.1 at 2019-06-19 12:57:51 +0530
+Processing by Sessions1Controller#new as HTML
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login2" for 127.0.0.1 at 2019-06-19 13:00:11 +0530
+Processing by Sessions1Controller#new as HTML
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login2" for 127.0.0.1 at 2019-06-19 13:01:19 +0530
+Processing by Sessions1Controller#new as HTML
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 78ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login2" for 127.0.0.1 at 2019-06-19 13:02:31 +0530
+Processing by Sessions1Controller#new as HTML
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login2" for 127.0.0.1 at 2019-06-19 13:02:53 +0530
+Processing by Sessions1Controller#new as HTML
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login2" for 127.0.0.1 at 2019-06-19 13:03:40 +0530
+Processing by Sessions1Controller#new as HTML
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login2" for 127.0.0.1 at 2019-06-19 13:03:45 +0530
+Processing by Sessions1Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/KY63wSmFi3IUpJeKPDn2diXlMFfXtWoxrc25t9IwzLLtQYeiL5l3ePPuPV/tcVCWi3am3HqfpWDLMQGOdOULQ==", "session"=>{"email"=>"abhishekseth.3344@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mCompany Load (0.3ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."email" = $1 LIMIT $2[0m  [["email", "abhishekseth.3344@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions1_controller.rb:5
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 79.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login2" for 127.0.0.1 at 2019-06-19 13:04:07 +0530
+Processing by Sessions1Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/KY63wSmFi3IUpJeKPDn2diXlMFfXtWoxrc25t9IwzLLtQYeiL5l3ePPuPV/tcVCWi3am3HqfpWDLMQGOdOULQ==", "session"=>{"email"=>"abhishekseth.3344@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mCompany Load (0.3ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."email" = $1 LIMIT $2[0m  [["email", "abhishekseth.3344@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions1_controller.rb:5
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login2" for 127.0.0.1 at 2019-06-19 13:04:20 +0530
+Processing by Sessions1Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/KY63wSmFi3IUpJeKPDn2diXlMFfXtWoxrc25t9IwzLLtQYeiL5l3ePPuPV/tcVCWi3am3HqfpWDLMQGOdOULQ==", "session"=>{"email"=>"abhishekseth.3344@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mCompany Load (0.4ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."email" = $1 LIMIT $2[0m  [["email", "abhishekseth.3344@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions1_controller.rb:5
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 77.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/login1" for 127.0.0.1 at 2019-06-19 13:06:45 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 78ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 13:06:52 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 13:07:09 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_message.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why" for 127.0.0.1 at 2019-06-19 13:07:11 +0530
+Processing by WelcomeController#why as HTML
+  Rendering welcome/why.html.erb within layouts/application
+  Rendered welcome/why.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 13:09:53 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why" for 127.0.0.1 at 2019-06-19 13:09:55 +0530
+Processing by WelcomeController#why as HTML
+  Rendering welcome/why.html.erb within layouts/application
+  Rendered welcome/why.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-06-19 13:10:01 +0530
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 13:10:04 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 74ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 13:10:17 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 91ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why" for 127.0.0.1 at 2019-06-19 13:10:18 +0530
+Processing by WelcomeController#why as HTML
+  Rendering welcome/why.html.erb within layouts/application
+  Rendered welcome/why.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 126ms (Views: 125.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 13:10:22 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/companies/new" for 127.0.0.1 at 2019-06-19 13:10:26 +0530
+Processing by CompaniesController#new as HTML
+  Rendering companies/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered companies/_form.html.erb (4.8ms)
+  Rendered companies/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/companies" for 127.0.0.1 at 2019-06-19 13:10:48 +0530
+Processing by CompaniesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s/lJyZLrK5pgeTJbdx9YCdTjKo7XYOqtuTyDx1cdsWqE6nUIHvNYakvkGPAgWnqSVllk1PnUQZD8p3EnsYbmdQ==", "company"=>{"compName"=>"wbc", "hrName"=>"sddd", "contactNumber"=>"79802362269", "compPostalAddress"=>"ddd", "website"=>"ddd", "email"=>"abhishekseth.3344@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/companies_controller.rb:31
+  [1m[36mCompany Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "companies" WHERE LOWER("companies"."compName") = LOWER($1) LIMIT $2[0m  [["compName", "wbc"], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:31
+  [1m[36mCompany Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "companies" WHERE LOWER("companies"."email") = LOWER($1) LIMIT $2[0m  [["email", "abhishekseth.3344@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/companies_controller.rb:31
+  Rendering companies/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered companies/_form.html.erb (3.3ms)
+  Rendered companies/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 396ms (Views: 61.5ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/companies" for 127.0.0.1 at 2019-06-19 13:11:22 +0530
+Processing by CompaniesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mf0KRAf3gPdB323pWU1ycMZz6qds7eitt0dHT52hx8+u7jaFi+/zB2pCR0IOCFDrRMmk/UJZQ5Dy3LWvezqQ0A==", "company"=>{"compName"=>"wbc", "hrName"=>"sddd", "contactNumber"=>"79802362269", "compPostalAddress"=>"Village-Gurpa\r\nDistrict-Gaya", "website"=>"www.google.co.in", "email"=>"abhishekseth.3344@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/companies_controller.rb:31
+  [1m[36mCompany Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "companies" WHERE LOWER("companies"."compName") = LOWER($1) LIMIT $2[0m  [["compName", "wbc"], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:31
+  [1m[36mCompany Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "companies" WHERE LOWER("companies"."email") = LOWER($1) LIMIT $2[0m  [["email", "abhishekseth.3344@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:31
+  [1m[36mCompany Create (0.6ms)[0m  [1m[32mINSERT INTO "companies" ("compName", "hrName", "contactNumber", "compPostalAddress", "email", "website", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["compName", "wbc"], ["hrName", "sddd"], ["contactNumber", "79802362269"], ["compPostalAddress", "Village-Gurpa\r\nDistrict-Gaya"], ["email", "abhishekseth.3344@gmail.com"], ["website", "www.google.co.in"], ["created_at", "2019-06-19 07:41:22.846331"], ["updated_at", "2019-06-19 07:41:22.846331"], ["password_digest", "$2a$12$ZnLDQuUW758prq1LgSziQeWkNhjQ.xFY7LwamLrtkh.9hHzZhWuPe"]]
+  ↳ app/controllers/companies_controller.rb:31
+  [1m[35m (3.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/companies_controller.rb:31
+Redirected to http://localhost:3000/companies/1
+Completed 302 Found in 342ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/companies/1" for 127.0.0.1 at 2019-06-19 13:11:22 +0530
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCompany Load (0.5ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:62
+  [1m[36mCompany Load (0.4ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:20
+  Rendering companies/show.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."company_id" = $1[0m  [["company_id", 1]]
+  ↳ app/views/jobs/_job.html.erb:23
+  Rendered jobs/_job.html.erb (6.8ms)
+  Rendered companies/show.html.erb within layouts/application (19.6ms)
+  Rendered layouts/_navigation.html.erb (2.1ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 109ms (Views: 93.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/companies/1" for 127.0.0.1 at 2019-06-19 13:11:38 +0530
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCompany Load (0.3ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:62
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:20
+  Rendering companies/show.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."company_id" = $1[0m  [["company_id", 1]]
+  ↳ app/views/jobs/_job.html.erb:23
+  Rendered jobs/_job.html.erb (1.9ms)
+  Rendered companies/show.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 62ms (Views: 59.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/companies/1/edit" for 127.0.0.1 at 2019-06-19 13:11:41 +0530
+Processing by CompaniesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:62
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:20
+  Rendering companies/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered companies/_form.html.erb (2.5ms)
+  Rendered companies/edit.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 81ms (Views: 78.4ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/companies/1" for 127.0.0.1 at 2019-06-19 13:11:49 +0530
+Processing by CompaniesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hn8kUhaNbk+AUhrsMmJRJaGMQrR2tXno6lemW3JkzoOxbBiTmpUdv6vPMEdlJ3O+IzYM7lgB0tWvzFS7lP+ZnA==", "company"=>{"compName"=>"wipro", "hrName"=>"sddd", "contactNumber"=>"79802362269", "compPostalAddress"=>"Village-Gurpa\r\nDistrict-Gaya", "website"=>"www.google.co.in", "email"=>"abhishekseth.3344@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Update", "id"=>"1"}
+  [1m[36mCompany Load (0.3ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:62
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/companies_controller.rb:43
+  [1m[36mCompany Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "companies" WHERE LOWER("companies"."compName") = LOWER($1) AND "companies"."id" != $2 LIMIT $3[0m  [["compName", "wipro"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:43
+  [1m[36mCompany Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "companies" WHERE LOWER("companies"."email") = LOWER($1) AND "companies"."id" != $2 LIMIT $3[0m  [["email", "abhishekseth.3344@gmail.com"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:43
+  [1m[36mCompany Update (0.4ms)[0m  [1m[33mUPDATE "companies" SET "compName" = $1, "password_digest" = $2, "updated_at" = $3 WHERE "companies"."id" = $4[0m  [["compName", "wipro"], ["password_digest", "$2a$12$0kbF1GmxntLJuQOY0wt69.91uys30.K1JgIOVH/0JDsX1QqvMc0PC"], ["updated_at", "2019-06-19 07:41:50.240827"], ["id", 1]]
+  ↳ app/controllers/companies_controller.rb:43
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/companies_controller.rb:43
+Redirected to http://localhost:3000/companies/1
+Completed 302 Found in 340ms (ActiveRecord: 5.5ms)
+
+
+Started GET "/companies/1" for 127.0.0.1 at 2019-06-19 13:11:50 +0530
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:62
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:20
+  Rendering companies/show.html.erb within layouts/application
+  [1m[36mJob Load (0.6ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."company_id" = $1[0m  [["company_id", 1]]
+  ↳ app/views/jobs/_job.html.erb:23
+  Rendered jobs/_job.html.erb (3.1ms)
+  Rendered companies/show.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 61.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at 2019-06-19 13:11:57 +0530
+Processing by JobsController#new as HTML
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered jobs/_form.html.erb (3.5ms)
+  Rendered jobs/new.html.erb within layouts/application (4.3ms)
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:20
+  Rendered layouts/_navigation.html.erb (2.2ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 89ms (Views: 64.2ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/exams/new" for 127.0.0.1 at 2019-06-19 13:12:02 +0530
+Processing by ExamsController#new as HTML
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:20
+  Rendering exams/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."company_id" = $1[0m  [["company_id", 1]]
+  ↳ app/views/exams/new.html.erb:24
+  Rendered exams/new.html.erb within layouts/application (10.7ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 101ms (Views: 85.3ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/exams" for 127.0.0.1 at 2019-06-19 13:12:11 +0530
+Processing by ExamsController#index as HTML
+  Rendering exams/index.html.erb within layouts/application
+  [1m[36mExam Load (0.5ms)[0m  [1m[34mSELECT "exams".* FROM "exams"[0m
+  ↳ app/views/exams/index.html.erb:22
+  Rendered exams/index.html.erb within layouts/application (2.0ms)
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:20
+  Rendered layouts/_navigation.html.erb (2.1ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 60.8ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/logout2" for 127.0.0.1 at 2019-06-19 13:12:14 +0530
+Processing by Sessions1Controller#destroy as HTML
+  Parameters: {"authenticity_token"=>"G9POlGrBWRCrikacDVGX7RnytBuBnW1+lGPpXOqscPsswPJV5tkq4IAXbDdaFLV2m0j6Qa8pxkPR+Bu8DDcn5A=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 13:12:14 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login2" for 127.0.0.1 at 2019-06-19 13:12:22 +0530
+Processing by Sessions1Controller#new as HTML
+  Rendering sessions1/new.html.erb within layouts/application
+  Rendered sessions1/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login2" for 127.0.0.1 at 2019-06-19 13:12:26 +0530
+Processing by Sessions1Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"82d7Jl1bxY9mSZHu2HUadDpuEcw367/aLoA9ikPSDuTEdEfn0UO2f03Uu0WPMDjvuNRflhlfFOdrG89qpUlZ+w==", "session"=>{"email"=>"abhishekseth.3344@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mCompany Load (0.4ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."email" = $1 LIMIT $2[0m  [["email", "abhishekseth.3344@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions1_controller.rb:5
+Redirected to http://localhost:3000/companies/1
+Completed 302 Found in 331ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/companies/1" for 127.0.0.1 at 2019-06-19 13:12:26 +0530
+Processing by CompaniesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/companies_controller.rb:62
+  [1m[36mCompany Load (0.2ms)[0m  [1m[34mSELECT  "companies".* FROM "companies" WHERE "companies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:20
+  Rendering companies/show.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."company_id" = $1[0m  [["company_id", 1]]
+  ↳ app/views/jobs/_job.html.erb:23
+  Rendered jobs/_job.html.erb (1.5ms)
+  Rendered companies/show.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 77ms (Views: 74.2ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/logout2" for 127.0.0.1 at 2019-06-19 13:12:29 +0530
+Processing by Sessions1Controller#destroy as HTML
+  Parameters: {"authenticity_token"=>"v7wNG23x/MyMhzrQ1VhYrYcNGXZUxggRaIxktEcB+3KIrzHa4emPPKcaEHuCHXo2BbdXLHpyoywtF5ZUoZqsbQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 13:12:30 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-06-19 13:12:36 +0530
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2019-06-19 13:12:38 +0530
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered students/_form.html.erb (7.6ms)
+  Rendered students/new.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/students" for 127.0.0.1 at 2019-06-19 13:13:08 +0530
+Processing by StudentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X2ns9XH8mPGetFAa2M869CFTYk4lP3Tll3AQZlaBXCNoetA0/eTrAbUperGPihhvo+ksFAuL39jS6+KGsBoLPA==", "student"=>{"studentName"=>"Abhishek kumar", "registration"=>"10114008", "Dob(1i)"=>"2019", "Dob(2i)"=>"6", "Dob(3i)"=>"19", "branch"=>"bbb", "cgpa"=>"7", "subject"=>"ddd", "language"=>"dd", "contact"=>"7980362269", "email"=>"abhishekseth.3344@gmail.com", "address"=>"dddd", "password"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/students_controller.rb:30
+  [1m[36mStudent Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER($1) LIMIT $2[0m  [["email", "abhishekseth.3344@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/students_controller.rb:30
+  [1m[36mStudent Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "students" WHERE "students"."registration" = $1 LIMIT $2[0m  [["registration", "10114008"], ["LIMIT", 1]]
+  ↳ app/controllers/students_controller.rb:30
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/students_controller.rb:30
+  Rendering students/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered students/_form.html.erb (6.3ms)
+  Rendered students/new.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 382ms (Views: 65.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/students" for 127.0.0.1 at 2019-06-19 13:13:27 +0530
+Processing by StudentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DTvC1b/6hQkJbPQf1UXkVSZ1nYKJsErvEsXc2Jh0mUA6KP4UM+L2+SLx3rSCAMbOpM/T2KcE4dJXXi44fu/OXw==", "student"=>{"studentName"=>"Abhishek kumar", "registration"=>"10114007", "Dob(1i)"=>"2019", "Dob(2i)"=>"6", "Dob(3i)"=>"19", "branch"=>"bbb", "cgpa"=>"7", "subject"=>"ddd", "language"=>"dd", "contact"=>"7980362269", "email"=>"abhishekseth1.3344@gmail.com", "address"=>"dddd", "password"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/students_controller.rb:30
+  [1m[36mStudent Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "students" WHERE LOWER("students"."email") = LOWER($1) LIMIT $2[0m  [["email", "abhishekseth1.3344@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/students_controller.rb:30
+  [1m[36mStudent Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "students" WHERE "students"."registration" = $1 LIMIT $2[0m  [["registration", "10114007"], ["LIMIT", 1]]
+  ↳ app/controllers/students_controller.rb:30
+  [1m[36mStudent Create (0.4ms)[0m  [1m[32mINSERT INTO "students" ("studentName", "Dob", "branch", "cgpa", "subject", "language", "contact", "email", "address", "created_at", "updated_at", "registration", "password_digest") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["studentName", "Abhishek kumar"], ["Dob", "2019-06-19"], ["branch", "bbb"], ["cgpa", 7.0], ["subject", "ddd"], ["language", "dd"], ["contact", "7980362269"], ["email", "abhishekseth1.3344@gmail.com"], ["address", "dddd"], ["created_at", "2019-06-19 07:43:28.054374"], ["updated_at", "2019-06-19 07:43:28.054374"], ["registration", "10114007"], ["password_digest", "$2a$12$r/8ifNvCioVJMxr1tHMO9upseD9oj10NemTxyc2YISk.BcXf4tegW"]]
+  ↳ app/controllers/students_controller.rb:30
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/students_controller.rb:30
+Redirected to http://localhost:3000/students/2
+Completed 302 Found in 322ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/students/2" for 127.0.0.1 at 2019-06-19 13:13:28 +0530
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/students_controller.rb:62
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendering students/show.html.erb within layouts/application
+  [1m[36mApply Load (0.3ms)[0m  [1m[34mSELECT "applies".* FROM "applies" WHERE "applies"."student_id" = $1[0m  [["student_id", 2]]
+  ↳ app/views/applies/_apply.html.erb:30
+  [1m[36mJob Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "jobs" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/applies/_apply.html.erb:54
+  Rendered applies/_apply.html.erb (5.8ms)
+  Rendered students/show.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 91ms (Views: 84.7ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2019-06-19 13:13:30 +0530
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  ↳ app/views/jobs/_job.html.erb:23
+  Rendered jobs/_job.html.erb (2.4ms)
+  Rendered jobs/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 59.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/students/2" for 127.0.0.1 at 2019-06-19 13:13:35 +0530
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/students_controller.rb:62
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendering students/show.html.erb within layouts/application
+  [1m[36mApply Load (0.3ms)[0m  [1m[34mSELECT "applies".* FROM "applies" WHERE "applies"."student_id" = $1[0m  [["student_id", 2]]
+  ↳ app/views/applies/_apply.html.erb:30
+  [1m[36mJob Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "jobs" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/applies/_apply.html.erb:54
+  Rendered applies/_apply.html.erb (2.3ms)
+  Rendered students/show.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 76ms (Views: 73.5ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/logout1" for 127.0.0.1 at 2019-06-19 13:13:48 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5lARSkDF4DMAgajEaC3S6N/P0gEJr/nAabEYjq0wbw/RQy2LzN2Twyscgm8/aPBzXXWcWycbUv0sKupuS6s4EA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 13:13:48 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (12.4ms)
+  Rendered layouts/_message.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login1" for 127.0.0.1 at 2019-06-19 13:13:55 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login1" for 127.0.0.1 at 2019-06-19 13:14:00 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h2tJCr0Y+WOG3XRLvbswUlFIWkut7bt648R4m0hJ6h2weHXLMQCKk61AXuDq/hLJ0/IUEYNZEEemX4p7rtK9Ag==", "session"=>{"email"=>"abhishekseth1.3344@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."email" = $1 LIMIT $2[0m  [["email", "abhishekseth1.3344@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5
+Redirected to http://localhost:3000/students/2
+Completed 302 Found in 315ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/students/2" for 127.0.0.1 at 2019-06-19 13:14:00 +0530
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/students_controller.rb:62
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  Rendering students/show.html.erb within layouts/application
+  [1m[36mApply Load (0.3ms)[0m  [1m[34mSELECT "applies".* FROM "applies" WHERE "applies"."student_id" = $1[0m  [["student_id", 2]]
+  ↳ app/views/applies/_apply.html.erb:30
+  [1m[36mJob Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "jobs" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/applies/_apply.html.erb:54
+  Rendered applies/_apply.html.erb (2.3ms)
+  Rendered students/show.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 74.6ms | ActiveRecord: 1.2ms)
+
+
+Started DELETE "/logout1" for 127.0.0.1 at 2019-06-19 13:14:03 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TEBtjn4E/ILplJg024b0QI6RCnoYrH6yDw4knAmw8hF7U1FP8hyPcsIJsp+Mw9bbDCtEIDYY1Y9KldZ87yulDg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-19 13:14:03 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+

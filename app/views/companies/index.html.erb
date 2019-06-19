@@ -1,0 +1,50 @@
+
+<h1 align="center">Company Registeration</h1>
+<div class="container-fluid">
+<table class="table table-hover table-bordered info">
+  <thead>
+    <tr>
+      <th>Company Name</th>
+      <th>HR Name</th>
+      <th>Contact Number</th>
+      <th>Company Postal Address</th>
+      <th>Email</th>
+      <th>Website</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @companies.each do |company| %>
+      <tr>
+        <td><%= company.compName %></td>
+        <td><%= company.hrName %></td>
+        <td><%= company.contactNumber %></td>
+        <td><%= company.compPostalAddress %></td>
+        <td><%= company.email %></td>
+        <td><%= company.website %></td>
+        <td><%= link_to 'Show', company,:class => "btn btn-md btn-info" %></td>
+        <td><%= link_to 'Edit', edit_company_path(company),:class => "btn btn-md btn-info" %></td>
+        <td><%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' },:class => "btn btn-md btn-info" %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<hr>
+<div class="well">
+  <div class="row">
+     <div class="col-sm-12">
+         <div class="col-sm-3">
+             <%= link_to 'New Company', new_company_path , :class => "btn btn-md btn-info"%>
+         </div>
+         <div class="col-sm-3">
+             <%=link_to 'Home',root_path,:class => "btn btn-md btn-info"%>
+         </div>
+
+     </div>
+
+  </div>
+</div>
+</div>
+
+
+

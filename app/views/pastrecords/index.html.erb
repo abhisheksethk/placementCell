@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Pastrecords</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Registration</th>
+      <th>Stream</th>
+      <th>Year</th>
+      <th>Package</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pastrecords.each do |pastrecord| %>
+      <tr>
+        <td><%= pastrecord.name %></td>
+        <td><%= pastrecord.registration %></td>
+        <td><%= pastrecord.stream %></td>
+        <td><%= pastrecord.year %></td>
+        <td><%= pastrecord.package %></td>
+        <td><%= link_to 'Show', pastrecord %></td>
+        <td><%= link_to 'Edit', edit_pastrecord_path(pastrecord) %></td>
+        <td><%= link_to 'Destroy', pastrecord, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Pastrecord', new_pastrecord_path %>

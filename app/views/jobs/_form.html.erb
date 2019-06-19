@@ -1,0 +1,50 @@
+
+   <%=render 'shared/errors',obj: job%>
+   <div class="container-fluid">
+   <div class="  row ">
+  <div class="col-sm-10 col-md-offset-2">
+     <%= form_for(job,:html =>{class:"form-horizontal",multipart: true ,role:"form"}) do |f| %>
+      <div class="form-group" style="padding-top: 40px">
+          <div class="control-label col-sm-2">
+           <%=  f.label :name,"Post Name" %>
+            
+          </div>
+           <div class="col-sm-5">
+             <%= f.text_field :name ,placeholder:"Enter Job Name",class:"form-control",autofocus:true %>
+          </div>
+      </div>
+      <div class="form-group" >
+          <div class="control-label col-sm-2">
+           <%=  f.label :package,"Package(Lakhs)" %>
+          </div>
+           <div class="col-sm-5">
+             <%=  f.text_field :package  ,placeholder:"Enter Package Per annum",class:"form-control",autofocus:true %>
+          </div>
+      </div>
+      <div class="form-group" >
+          <div class="control-label col-sm-2">
+           <%=  f.label :location  %>
+          </div>
+           <div class="col-sm-5">
+             <%= f.text_area :location,rows: 5,placeholder:"Enter location",class:"form-control",autofocus:true %>
+          </div>
+      </div>
+      <div class="form-group" >
+          <div class="control-label col-sm-2">
+           <%=  f.label :critria,"Skills Required" %>
+          </div>
+           <div class="col-sm-5">
+             <%= f.text_area :critria ,rows: 6,placeholder:"Enter Skills list",class:"form-control",autofocus:true %>
+          </div>
+      </div>
+      <div class="form-group">
+       <div class="col-sm-5 col-sm-offset-2">
+        <%= f.submit "Submit" , class:'btn btn-primary btn-md'%>
+      </div>
+     </div>
+<% end %>
+</div>
+</div>
+ </div>
+
+  

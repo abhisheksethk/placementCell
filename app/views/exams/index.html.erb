@@ -1,0 +1,45 @@
+
+
+<div class="container-fluid" style="margin-bottom: 9%">
+ <div class="card well">
+  <div class="card-header" style="color:#269ABC">
+   <h4> <strong>Exam Details</strong></h4>
+  </div>
+  <div class="card-block">
+  <table class="table table-hover table-bordered info">
+  <thead style="background-color:#0072CC;color:white">
+    <tr class="text-nowrap">
+      <th>Company Name</th>
+      <th>JobPostName</th>
+      <th>Examtype</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Rules</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @exams.each do |exam| %>
+      <tr>
+         <td><%=exam.job.company.compName if exam.job%></td>
+         <td><%=exam.job.name if exam.job%></td>
+        <td><%= exam.examtype %></td>
+        <td><%= exam.date %></td>
+        <td><%= exam.time %></td>
+        <td><%= exam.result %></td>
+        
+          <%if (!logged_in1?)%>
+            <td> <%= link_to 'Edit', edit_exam_path(exam), class: "btn btn-xs btn-primary",style: "color:white" %></td>
+          <%end%>
+      </tr>
+    <% end %>
+  </tbody>
+           <%if (logged_in1?)%>
+          <td><%=link_to 'Apply',new_apply_path,class: "btn btn-lg btn-info" %></td>
+           <%end%>
+</table>
+</div>
+</div>
+</div>
+
+

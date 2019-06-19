@@ -1,0 +1,58 @@
+ 
+  <%render 'shared/errors',obj: exam %>
+   <div class="container-fluid">
+   <div class="  row ">
+  <div class="col-sm-10 col-md-offset-2">
+     <%= form_for(exam,:html =>{class:"form-horizontal",multipart: true ,role:"form"}) do |f| %>
+      <div class="form-group" style="padding-top: 40px">
+          <div class="control-label col-sm-2">
+           <%=  f.label :examtype,"Exam Type"%>
+          </div>
+           <div class="col-sm-5">
+              
+              <%= f.select(:examtype ,options_for_select([['Offline','Offline'],['Online','Online']])) %>
+          
+          </div>
+      </div>
+      <div class="form-group" >
+          <div class="control-label col-sm-2">
+           <%=  f.label :job_id,"JobName"%>
+          </div>
+           <div class="col-sm-5">
+             <%= f.select :job_id, options_for_select(@jobs.map{ |s| [s.name, s.id] },params[:job_id]) ,class:"form-control",autofocus:true %>
+          </div>
+      </div>
+      <div class="form-group" >
+          <div class="control-label col-sm-2">
+           <%=  f.label :date %>
+          </div>
+           <div class="col-sm-5">
+             <%= f.text_field :date ,class:"form-control date" %>
+          </div>
+      </div>
+      <div class="form-group" >
+          <div class="control-label col-sm-2">
+           <%=  f.label :time %>
+          </div>
+           <div class="col-sm-5">
+             <%= f.time_select :time,class:"form-control",autofocus:true %>
+          </div>
+      </div>
+      <div class="form-group" >
+          <div class="control-label col-sm-2">
+           <%=  f.label :result,"ExamRules" %>
+          </div>
+           <div class="col-sm-5">
+             <%= f.text_area :result ,rows: 6 ,placeholder:"Enter exam rules ",class:"form-control",autofocus:true %>
+          </div>
+      </div>
+      <div class="form-group">
+       <div class="col-sm-5 col-sm-offset-2">
+        <%= f.submit "Submit" , class:'btn btn-primary btn-md'%>
+      </div>
+     </div>
+<% end %>
+</div>
+</div>
+</div>
+ 

@@ -1,0 +1,148 @@
+$navbar-default-bg:#232F3E;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+img { padding-top: 0px;
+      }
+@media screen and (max-width: 350px) {
+    img { padding-top: 48px;
+            }
+}
+@media (max-width: 1050px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+#logo
+{
+	float:left;
+	font-size:1.7em;
+	color:#fff;
+	text-transforma:uppercase;
+	letter-spacing:-1px;
+	font-weight:bold;
+	 margin:16px 14px 14px 14px;
+	}
+#logo:hover
+{
+	color:#20B0D4;
+	text-decoration:none;
+}
+.nav_font
+{
+	font-size:1.1em;
+	text-transforma:uppercase;
+	letter-spacing:-1px;
+	font-weight:bold;
+}
+.nav_font:hover
+{
+	
+	text-decoration:none;
+}
+.img-responsive {
+max-width: 100%; /* or to whatever you want here */
+max-height: auto; /* or to whatever you want here */
+position: relative;
+   
+    top:1px;
+    
+}
+.par
+{
+	font-weight: bold;
+	color: white;
+}
+.full-width {
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+}
+.left
+{
+	margin-left:30px;
+}
+.cyan
+{
+	color:cyan;
+}
+html, body {
+    
+    height:100%;
+    
+}
+
+.lead {
+  color:#DDCCEE;
+}
+.form-width
+{
+    width:80%;
+    border:1px ;
+    margin:0 auto;
+
+
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.navbar-default {
+    background-color: white;
+    border-radius: 0;
+    height: 80px;
+    padding: 15px 0;
+    border: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-size: 2em;
+    font-weight: 300;
+    color: #1D976C !important;
+}
+
+
+

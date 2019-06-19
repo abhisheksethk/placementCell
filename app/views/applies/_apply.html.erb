@@ -1,0 +1,63 @@
+<div class="container-fluid">
+ <div class="card well">
+  <div class="card-header" style="color:#269ABC">
+   <h4> <strong>Applied Details</strong></h4>
+  </div>
+  <div class="card-block">
+  <table class="table table-hover table-bordered info">
+  <thead style="background-color:#0072CC;color:white">
+    <tr class="text-nowrap">
+      <th>Name:</th>
+      <th>Registration No:</th>
+      <th>Date Of Birth:</th>
+      <th>Branch:</th>
+      <th>Cgpa:</th>
+      <%if logged_in1?%>
+      <th>Contact:</th>
+      <th>Email:</th>
+        
+       <th>Compnay Name:</th>
+       
+      <th>Package(L/A):</th>
+      <th>Location</th>
+      <th>Skills Required:</th>
+      
+      <th colspan="3"></th>
+      <%end%>
+    </tr>
+  </thead>
+  <tbody>
+    <% obj.each do |apply| %>
+      <tr>
+        <td><%= apply.student.studentName if apply.student%></td>
+        <td><%= apply.student.registration if apply.student %></td>
+        <td><%= apply.student.Dob if apply.student%></td>
+        <td><%= apply.student.branch if apply.student %></td>
+        <td><%= apply.student.cgpa if apply.student%></td>
+        <%if logged_in1?%>
+        <td><%= apply.student.contact if apply.student%></td>
+        <td><%= apply.student.email if apply.student%></td>
+        
+         <td><%= apply.job.company.compName if apply.job.company.compName %></td>
+
+        <td><%= apply.job.package if apply.student%></td>
+        <td><%= apply.job.location if apply.student%></td>
+        <td><%= apply.job.critria if apply.student%></td>
+        
+        <td><%= link_to 'Show', apply %></td>
+        <td><%= link_to 'Edit', edit_apply_path(apply) %></td>
+        <%end%>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<%if (logged_in1?)&&(Job.exists?)%>
+<hr>
+<div class="well">
+ 
+ <button type="button" class="btn btn-success btn-md"><%= link_to 'New Apply', new_apply_path , class: "btn btn-xs btn-primary"%></button>
+</div>
+<%end%>
+</div>
+</div>
+</div>

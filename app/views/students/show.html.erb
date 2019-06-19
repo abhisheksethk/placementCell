@@ -1,0 +1,67 @@
+
+ <table class="table table-hover table-bordered ">
+  <thead>
+    <tr>
+     
+      <th>Studentname:</th>
+      <th>RegistrationNo:</th>
+      <th>Dob:</th>
+      <th>Branch:</th>
+      <th>Cgpa:</th>
+      <th>Subject:</th>
+       <th>Programming</br>Languages:</th>
+      <th>Contact:</th>
+      <th>Email:</th>
+      <th>Address:</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><%= @student.studentName%></td>
+        <td><%=@student.registration %></td>
+        <td><%= @student.Dob  %></td>
+        <td><%= @student.branch%></td>
+        <td><%= @student.cgpa %></td>
+        <td><%=@student.subject%></td>
+         <td><%=@student.language%></td>
+        <td><%= @student.contact%></td>
+        <td><%= @student.email %></td>
+        <td><%= @student.address%></td>
+      </tr>
+  </tbody>
+</table>
+
+<hr>
+<div class="container-fluid">
+ <div class="well">
+  <div class="row">
+     <div class="col-sm-12">
+         <div class="col-sm-3">
+             <button type="button" class="btn btn-success btn-md">
+              <%= link_to 'Edit', edit_student_path(@student), class: "btn btn-xs btn-primary" %>
+             </button>
+         </div>
+          <div class="col-sm-3">
+             <button type="button" class="btn btn-success btn-md">
+                <%= link_to 'jobPost', jobs_path, class: "btn btn-xs btn-primary" %>
+             </button>
+         </div>
+          <div class="col-sm-3">
+             <button type="button" class="btn btn-success btn-md">
+               <%= link_to 'ExamInfo', exams_path, class: "btn btn-xs btn-primary" %> 
+             </button>
+         </div>
+     </div>
+
+  </div>
+</div>
+</div>
+
+
+   <!--<li> <%= link_to 'Back', students_path %></li> -->
+     
+     
+
+<hr>
+<%=render 'applies/apply',obj:@student.applies %>
+<hr>
