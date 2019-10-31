@@ -7,7 +7,7 @@ gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
 gem "paperclip", "~> 5.0.0"
 gem 'bcrypt', '~> 3.1.7'
 gem 'client_side_validations'
-gem 'devise', '~> 4.2', '>= 4.2.1'
+gem 'devise', '~> 4.7'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'pg', '~> 0.18.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
